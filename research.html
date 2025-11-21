@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research – Megan Le</title>
+    <title>Research – Ecem İlgün</title>
     <style>
+        /* CSS remains the same as previous step for visual consistency */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
@@ -92,17 +93,23 @@
             text-align: justify;
         }
         
-        .project-list {
+        .pub-list, .project-list {
             list-style: disc;
             margin-left: 20px;
+            padding-left: 0;
         }
+
+        .pub-list li, .project-list li {
+            margin-bottom: 15px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Megan Le</h1>
-            <p class="title">CS/Bioinformatics PhD Student</p>
+            <h1>Ecem İlgün</h1>
+            <p class="title">MSc Computer Engineering (Bilkent University) / Project Engineer</p>
 
             <nav>
                 <ul>
@@ -115,16 +122,28 @@
         </header>
 
         <main>
-            <h2>Current Research Focus</h2>
-            <p>My work at MIT focuses on developing novel computational algorithms for large-scale genomic data analysis, with a specific interest in methods that can handle complex structural variations and data from non-model organisms.</p>
+            [cite_start]<h2>Publications and Preprints [cite: 39]</h2>
+            <ul class="pub-list">
+                <li>**Pairwise Whole Genome Alignment using Locally Consistent Parsing** (MS Thesis). Ecem Ilgun. (Expected by Jan 2026) [cite_start][cite: 40, 41].</li>
+                <li>**GenCore: Genomic distance estimation using Locally Consistent Parsing.** Akmuhammet Ashyralyyev, Salem Malikic, S. Cenk Sahinalp, Can Alkan, Ege Şirvan and Ecem Ilgun. Submitted to RECOMB (2026). [cite_start]*Under review*[cite: 42, 43].</li>
+                <li>**Robust software development practices improve citations of RNA-seq tools.** Sanskruti Sharma, Ecem Ilgun, Tuna Okcu, et al. Submitted to GigaScience 2026. doi: 10.1101/2022.08.24.505188. [cite_start]*Under review*[cite: 44, 45, 46].</li>
+            </ul>
 
-            <h3>Project 1: Advanced Read Alignment</h3>
-            <p>I am currently developing a new algorithm for rapid, memory-efficient alignment of long sequencing reads, specifically addressing issues related to high error rates and complex genome structures. This involves utilizing machine learning models to improve alignment accuracy and speed.</p>
-            
-            <h3>Project 2: Ancient DNA Analysis Pipeline</h3>
-            <p>In collaboration with the ancient genomics lab, I am contributing to a robust pipeline for quality control and assembly of ancient DNA fragments. Key challenges include high fragmentation and chemical damage patterns, which our pipeline is designed to mitigate.</p>
-            
-            <h2>Past Research Experience</h2>
+            [cite_start]<h2>Ongoing Research Projects [cite: 52]</h2>
             <ul class="project-list">
-                <li>**Structural Variation Calling (UT Austin MS Thesis):** Development of a statistical framework for accurate detection of large-scale genomic rearrangements using short-read sequencing data.</li>
-                <li>**Physical Oceanography (Computational Research Group):** Implemented finite element models to
+                [cite_start]<li>**r-indexing of Locally Consistent Parsing (LCP) Cores.** (2025-Present) Mentoring Ata Soykal with Ali Erdem Karaçay[cite: 53].</li>
+                [cite_start]<li>**Statistical Analysis of LCP for Uniform Sequences Under Uniform Point Mutation.** (2025-Present) Mentoring Ege Şirvan with Akmuhammet Ashyralyyev[cite: 54].</li>
+                [cite_start]<li>**Efficient Matching of LCP Cores using Prefix-Free Parsing.** (2024-Present) Mentored Şeymanur Kılıç[cite: 56].</li>
+                [cite_start]<li>**Multiple Sequence Alignment using LCP.** (2024-Present) Collaborating with Tuna Okçu[cite: 58].</li>
+                [cite_start]<li>**Copy Number Variation Detection Using Transformers and Mamba.** (2023-Present) Collaborated with Ozan Müjde[cite: 59, 60].</li>
+                [cite_start]<li>**Workload characterization of DNA read mapping algorithms.** (2022-Present) Collaborating with Berkan Şahin[cite: 61].</li>
+            </ul>
+
+            [cite_start]<h2>Poster Presentations [cite: 48]</h2>
+            <ul class="project-list">
+                <li>**Characterization of Alignment and Search Algorithms for Short Reads, Long Reads and Graph Mappers.** Ecem Ilgun, Ömer Yavuz Öztürk, Klea Zambaku, et al. [cite_start]Presented at RECOMB (2023)[cite: 49, 50].</li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
